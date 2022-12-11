@@ -6,6 +6,7 @@ import accountRoutes from './account.routes';
 import usersRoutes from './users.routes';
 import monsterRouters from './monster-slayer.routes';
 import teleportRoutes from './teleport.routes';
+import coachRoutes from './coach.routes';
 
 export const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -16,6 +17,7 @@ export const router = createRouter({
         { ...usersRoutes },
         { ...monsterRouters },
         { ...teleportRoutes },
+        { ...coachRoutes },
         // catch all redirect to home page
         { path: '/:pathMatch(.*)*', redirect: '/' }
     ]
