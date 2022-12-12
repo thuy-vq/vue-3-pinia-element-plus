@@ -39,7 +39,7 @@ button:active {
 
 .flat2 {
   background-color: transparent;
-  color: white;
+  color: #3a0061;
   border: none;
 }
 
