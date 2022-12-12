@@ -10,11 +10,11 @@ export default {
       coaches: [
         {
           id: 'c1',
-          firstName: 'Maximilian',
-          lastName: 'Schwarzmüller',
+          firstName: 'Thuy',
+          lastName: 'Vu Quang',
           areas: ['frontend', 'backend', 'career'],
           description:
-            "I'm Maximilian and I've worked as a freelance web developer for years. Let me help you become a developer as well!",
+            "I'm ThuyVq and I've worked as a freelance web developer for years. Let me help you become a developer as well!",
           hourlyRate: 30
         },
         {
